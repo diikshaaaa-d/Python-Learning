@@ -276,6 +276,12 @@ else:
 
 print("Qn.4] WAP to check if the number is a multiple of 7 or not.")
 
+number = int(input("Enter a number:"))
 
+rem = number % 7
 
+if(rem == 0):
+    print("multiple of 7")
+else:
+    print("not a multiple of 7")
 
