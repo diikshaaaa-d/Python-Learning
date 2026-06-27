@@ -247,10 +247,34 @@ else:
 
 print("Qn.2] WAP to find the greatest of 3 numbers entered by the user.")
 
+numa = int(input("Enter the first number:"))
+numb = int(input("Enter the second number:"))
+numc = int(input("Enter the third number:"))
 
+if(numa>=numb and numa>=numc):
+    print(numa)
+elif(numb>=numc):
+    print(numb)
+else:
+    print(numc)
 
+print("Qn.3] WAP to find the greatest of 4 numbers entered by the user.")
 
+numa = int(input("Enter the first number:"))
+numb = int(input("Enter the second number:"))
+numc = int(input("Enter the third number: "))
+numd = int(input("Enter the fourth number: "))
 
+if(numa>=numb and numa>=numc and numa>=numd):
+    print(numa)
+elif(numb>=numc and numb>=numd):
+    print(numb)
+elif(numc>=numd):
+    print(numc)
+else:
+    print(numd)
+
+print("Qn.4] WAP to check if the number is a multiple of 7 or not.")
 
 
 
